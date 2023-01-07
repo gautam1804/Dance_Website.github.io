@@ -2,8 +2,11 @@
 doctype html
 html
   head
+
+  
     style
       include ../static/style.css
+      
   body
    nav#navbar 
         ul 
@@ -27,29 +30,28 @@ html
             h3 Dance Perfection
             div.card-box
                 div.card-img
-                    img(src="/static/img/1.png")
-                div.card-content
-                    p This is the best dance academy of the universe
+                    img(src="/static/img/1.png" Class="rounded float-start" alt="sponsor")
+               
 
         div.card
             h3 Dance the way you like
             div.card-box
                 div.card-img
-                    img(src="/static/img/2.png")
-                div.card-content
-                    p This is the best dance academy of the universe
+                    img(src="/static/img/2.png" Class="rounded float-start" alt="sponsor")
+                
 
         div.card
             h3 Expert Teaching
             div.card-box
                 div.card-img
-                    img(src="/static/img/3.png")
-                div.card-content
-                    p This is the best dance of the universe
+                    img(src="/static/img/3.png" Class="rounded float-start" alt="sponsor")
+              
+                    
 
    section#sponsorSection 
         h2 Our Sponsors
         div#sponsors 
+    
             img(src="/static/img/logo1.png" alt ="sponsor" Class="spImage")
             img(src="/static/img/logo5.png" Class="spImage")
             img(src="/static/img/logo6.png" Class="spImage")
@@ -61,3 +63,4 @@ html
       
    script 
         include ../static/index.js
+           
