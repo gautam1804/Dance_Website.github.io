@@ -178,9 +178,9 @@
 }
 #navbar ul {
   display: flex;
-  flex-direction: row;
-  /* justify-content: center; */
-  align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #navbar li {
@@ -215,6 +215,7 @@
 #introSection div.small {
   font-size: 52px;
   padding: 5px;
+  margin-top: 43px;
 }
 
 #missionSection h2 {
@@ -260,7 +261,8 @@
   font-size: 19px;
 }
 #sponsorSection {
-  height: 272px;
+  margin-top: 550px;
+  height: 365px;
   background: linear-gradient(45deg, rgb(163, 232, 235) , transparent)
 }
 
@@ -272,9 +274,9 @@
 }
 
 #sponsors{
-  height: 202px;
-    max-width: 598px;
-    margin: 6px auto;
+  height: 365px;
+  max-width: 598px;
+  margin: 5px 32px;
 }
 
 .spImage{
@@ -287,7 +289,7 @@
   color: white;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 12px;
   font-family: 'Yeon Sung';
   background-color: black;
   height: 60px;
@@ -301,41 +303,15 @@
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    width: 22%;
+    width: 65%;
     margin: 24px 52px;
     height: 223px;
 }
 }
-@media (max-width: 581px)
-{
+@media(max-width:435px){
   #missionSection {
     height: 326px;
-    width: 92%;
+    width: 94%;
     margin: auto;
-  }
-  .card {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 22%;
-    margin: 24px 52px;
-    height: 223px;
 }
 }
-@media (max-width: 1368px)
-{
-  #missionSection {
-    height: 326px;
-    width: 101%;
-    margin: auto;
-  }
-  .card {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 24%;
-    margin: 24px 52px;
-    height: 223px;
-}
-}
-
